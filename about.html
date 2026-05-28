@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>방화 마사지 이벤트 | 정보</title>
+  <meta name="description" content="방화 마사지 이벤트에 대한 상세 정보와 방화동 지역 시그널. 특가 마사지 프로모션, 리뷰, 할인 정보를 확인하세요. 전화 예약 가능.">
+  <meta name="keywords" content="방화 마사지, 방화 마사지 이벤트, 방화 마사지 할인, 방화 마사지 추천, 마사지 핫딜, 방화동 마사지, 방화 마사지 정보">
+  <meta name="bpaas-design-system" content="brutalist-avantgarde">
+  <meta name="bpaas-design-theme" content="kr-neon-void">
+  <link rel="canonical" href="https://t3b01-bh-massage-evt.pages.dev/info">
+  <meta property="og:title" content="방화 마사지 이벤트 | 핫딜 마사지 정보">
+  <meta property="og:description" content="방화 마사지 이벤트 소식! 방화동에서 진행 중인 특가 마사지 프로모션, 리뷰, 할인 정보를 확인하세요.">
+  <meta property="og:url" content="https://t3b01-bh-massage-evt.pages.dev/info">
+  <style>
+    /* Street Brutalist — Neon Void */
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      font-size: 16px;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      background: #0a0a0a;
+      color: #e0e0e0;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: #ff00ff;
+      text-shadow: 4px 4px 0 #00ffff, -2px -2px 0 #ff0040;
+    }
+
+    h2 {
+      font-size: 2.2rem;
+      margin-bottom: 0.8rem;
+      color: #ff6600;
+      border-left: 6px solid #ff00ff;
+      padding-left: 1rem;
+    }
+
+    h3 {
+      font-size: 1.6rem;
+      margin-bottom: 0.5rem;
+      color: #00ffcc;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+
+    a {
+      color: #ff00ff;
+      text-decoration: underline wavy #00ffff;
+      transition: color 0.2s;
+    }
+
+    a:hover {
+      color: #ff6600;
+      text-decoration: none;
+    }
+
+    img, svg {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      filter: grayscale(0.5) contrast(1.3);
+      border: 2px solid #ff00ff;
+    }
+
+    /* Spacing system (airy) */
+    body > * {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    section, header, footer {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+
+    section + section {
+      border-top: 2px dashed #ff00ff;
+    }
+
+    /* Navigation & hamburger */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      background: #111;
+      padding: 1rem 5%;
+      border-bottom: 3px solid #00ffff;
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+      background: #ff00ff;
+      color: #0a0a0a;
+      padding: 0.2rem 1rem;
+      text-transform: uppercase;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      color: #e0e0e0;
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+    }
+
+    .nav-links a:hover {
+      border-bottom-color: #ff00ff;
+      color: #ff00ff;
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 2rem;
+      background: none;
+      border: none;
+      color: #ff00ff;
+      cursor: pointer;
+    }
+
+    /* tel-link styling */
+    .tel-link {
+      display: inline-block;
+      background: #ff6600;
+      color: #0a0a0a;
+      padding: 0.5rem 1.5rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-decoration: none;
+      border: 2px solid #ff00ff;
+      font-size: 1.2rem;
+      transition: background 0.2s;
+    }
+
+    .tel-link:hover {
+      background: #ff00ff;
+      color: #fff;
+    }
+
+    /* Card-like components */
+    .card {
+      background: #1a1a1a;
+      border: 2px solid #00ffff;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 8px 8px 0 #ff00ff;
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+
+    /* FAQ styling */
+    details {
+      background: #111;
+      border: 1px solid #ff6600;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    summary {
+      font-weight: bold;
+      font-size: 1.3rem;
+      cursor: pointer;
+      color: #ff6600;
+    }
+
+    details[open] summary {
+      color: #00ffcc;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: auto;
+      border-top: 2px solid #00ffff;
+      text-align: center;
+      color: #888;
+    }
+
+    /* Responsive 768px */
+    @media (max-width: 768px) {
+      h1 { font-size: 2.2rem; }
+      h2 { font-size: 1.8rem; }
+      h3 { font-size: 1.3rem; }
+      .grid-2 { grid-template-columns: 1fr; }
+
+      .nav-links {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem 0;
+        background: #111;
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .hamburger {
+        display: block;
+      }
+
+      body > * {
+        padding-left: 4%;
+        padding-right: 4%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">방화마사지</div>
+    <button class="hamburger" aria-label="메뉴 열기" onclick="this.nextElementSibling.classList.toggle('open')">☰</button>
+    <ul class="nav-links">
+      <li><a href="/">홈</a></li>
+      <li><a href="/info">정보</a></li>
+      <li><a href="/review">리뷰</a></li>
+      <li><a href="/event">이벤트</a></li>
+      <li><a href="tel:01012345678" class="tel-link">전화예약</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <header>
+    <h1>방화 마사지 이벤트 정보</h1>
+    <p>방화동에서 진행 중인 특급 마사지 핫딜! 지금 확인하고 예약까지 한 번에.</p>
+    <a href="tel:01012345678" class="tel-link">📞 예약 문의: 010-1234-5678</a>
+  </header>
+
+  <section>
+    <h2>이벤트 개요</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3>🔥 50% 할인 쿠폰</h3>
+        <p>방화점 오픈 기념! 첫 방문 고객님께 전신 마사지 50% 할인 쿠폰을 드립니다. (선착순 100명)</p>
+      </div>
+      <div class="card">
+        <h3>💆‍♂️ 친구 추천 이벤트</h3>
+        <p>친구와 함께 방문하면 두 분 모두 30분 추가 서비스! 평일에만 적용되는 찐딜이에요.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>상세 정보</h2>
+    <p>방화동 마사지 샵은 지하철 5호선 방화역에서 도보 3분 거리에 있어요. 주차도 가능하니 차량 이용하시는 분들도 편하게 오세요.</p>
+    <ul style="list-style: none; padding: 0; margin-bottom: 1.5rem;">
+      <li>✅ <strong>위치:</strong> 서울 강서구 방화동 123-45</li>
+      <li>✅ <strong>영업 시간:</strong> 매일 10:00 ~ 22:00 (연중무휴)</li>
+      <li>✅ <strong>전화:</strong> <a href="tel:01012345678">010-1234-5678</a></li>
+      <li>✅ <strong>가격:</strong> 전신 마사지 70,000원 → 이벤트가 35,000원</li>
+    </ul>
+    <a href="tel:01012345678" class="tel-link">지금 전화로 예약하기</a>
+  </section>
+
+  <section>
+    <h2>자주 묻는 질문</h2>
+    <details>
+      <summary>예약은 어떻게 하나요?</summary>
+      <p>전화 예약이 가장 빠릅니다. 위의 전화번호로 연락 주시면 원하시는 시간대에 바로 예약해 드려요. 문자나 카카오톡도 가능!</p>
+    </details>
+    <details>
+      <summary>이벤트는 언제까지인가요?</summary>
+      <p>이번 달 말일까지 진행합니다. 다만 50% 쿠폰은 선착순 100명 소진 시 조기 마감될 수 있어요.</p>
+    </details>
+    <details>
+      <summary>주차가 가능한가요?</summary>
+      <p>네, 매장 앞에 2대, 근처 공영주차장 10대까지 무료 주차 가능합니다. 방문 전 전화로 주차 문의 주세요.</p>
+    </details>
+  </section>
+
+  <section>
+    <h2>방화동 마사지 팁</h2>
+    <p>방화동은 한강과 가까워 산책 후 마사지 받기 딱 좋은 동네예요. 저도 자주 가는 단골인데, 특히 야간 마사지가 꿀입니다 – 한강 야경 보면서 힐링하고 집에 가면 잠이 솔솔 와요. 혹시 첫 방문이시라면 꼭 전화로 '이벤트 보고 왔어요'라고 말씀하세요. 깜짝 서비스 받을 수도 있거든요!</p>
+    <a href="tel:01012345678" class="tel-link">예약 문의 전화</a>
+  </section>
+
+  <footer>
+    <p>© 2025 방화 마사지 이벤트 | 강서구 방화동 | 전화 <a href="tel:01012345678">010-1234-5678</a></p>
+    <p style="font-size: 0.8rem;">본 페이지는 정보 제공 목적으로 운영됩니다. 모든 가격과 혜택은 사전 예고 없이 변경될 수 있습니다.</p>
+  </footer>
+
+  <!-- responsive hamburger script -->
+  <script>
+    document.querySelector('.hamburger').addEventListener('click', function() {
+      document.querySelector('.nav-links').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
